@@ -73,6 +73,18 @@ a {
     font-size: 1.4rem;
 }
 
+.navbar .navbar-brand {
+    font-size: 1.4rem;
+}
+
+.navbar .navbar-brand:hover {
+    color: #000;
+}
+
+.navbar .navbar-brand:active {
+    color: #000;
+}
+
 .navbar .down-menu-background {
     border: none;
     background-color: #808080;
