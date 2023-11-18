@@ -132,6 +132,20 @@ a {
     opacity: 0;
 }
 
+#main .img a img {
+    box-shadow: 7px 7px 15px #000;
+    transition: all 2s;
+}
+
+#main .img a:hover img {
+    box-shadow: 7px 7px 15px #444;
+    transition: 1s;
+}
+
+#main .img a:active img {
+    box-shadow: 7px 7px 15px #888;
+}
+
 #main .img-after {
     opacity: 1;
 }
