@@ -141,6 +141,20 @@ a {
     opacity: 1;
 }
 
+#main .img1 a img {
+    box-shadow: 7px 7px 15px #000;
+    transition: all 2s;
+}
+
+#main .img1 a:hover img {
+    box-shadow: 7px 7px 15px #444;
+    transition: 1s;
+}
+
+#main .img1 a:active img {
+    box-shadow: 7px 7px 15px #888;
+}
+
 
 /* footer 
 ================================================ */
