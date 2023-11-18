@@ -73,10 +73,6 @@ a {
     font-size: 1.4rem;
 }
 
-.navbar .navbar-brand {
-    font-size: 1.4rem;
-}
-
 .navbar .navbar-brand:hover {
     color: #000;
 }
