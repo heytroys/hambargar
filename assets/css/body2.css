@@ -132,9 +132,56 @@ a {
     background-color: rgba(39, 132, 255);
 }
 
-
-/* main
+/* events main
 ========================================= */
+
+#kakogawa1 {
+    text-align: center;
+}
+
+#kakogawa1 .animate__fadeIn h2 {
+    font-size: 1.5rem;
+    margin: 40px auto;
+}
+
+#kakogawa1 .animate__fadeIn h3 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+#kakogawa1 .animate__fadeIn h4 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#kakogawa1 .animate__fadeIn .img {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#ookini1 {
+    text-align: center;
+}
+
+#ookini1 .animate__fadeIn h2 {
+    font-size: 1.5rem;
+    margin: 40px auto;
+}
+
+#ookini1 .animate__fadeIn h3 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+#ookini1 .animate__fadeIn h4 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#ookini1 .animate__fadeIn .img {
+    text-align: center;
+    margin-bottom: 60px;
+}
 
 #main {
     text-align: center;
