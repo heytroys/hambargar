@@ -5,7 +5,13 @@ html {
 
 body {
     font-size: 0.8rem;
-    background-color: #b0e0e6;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
 }
 
 img {
@@ -142,8 +148,10 @@ a {
 
 #main h2 {
     font-size: 1.5rem;
+    font-weight: 800;
     padding: 30px;
     margin-bottom: 40px;
+    text-shadow: 2px 2px 15px #FF0;
 }
 
 #main .img {
