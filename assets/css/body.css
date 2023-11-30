@@ -133,58 +133,117 @@ a {
 }
 
 
+/* slider
+=================== */
+
+#auto-slider {
+    margin-bottom: 90px;
+}
+
+@keyframes infinity-scroll-right {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.pic {
+    width: calc(100vw / 1);
+}
+
+.pic > img {
+    width: 100%;
+}
+
+#auto-slider .flex-images-right {
+    display: flex;
+    overflow: hidden;
+}
+
+#auto-slider .flex-images-right .scroll-list {
+    display: flex;
+    list-style: none;
+    background-color: #F00;
+    margin-right: 0;
+}
+
+#auto-slider .flex-images-right .scroll-list li img {
+    opacity: 0.8;
+    vertical-align: bottom;
+}
+
+#auto-slider .flex-images-right .auto-scroll-from-right {
+    animation: infinity-scroll-right 20s linear 0.5s infinite normal both;
+} 
+
+#auto-slider .flex-images-right:hover .auto-scroll-from-right,
+#auto-slider .flex-images-right:active .auto-scroll-from-right {
+    animation-play-state: paused;
+}
+
+#auto-slider .flex-images-right:hover .scroll-list li img,
+#auto-slider .flex-images-right:active .scroll-list li img {
+    opacity: 1;
+    transition: all 1s;
+}
+
+
 /* main
 ========================================= */
 
-#main {
+#main-bottom {
     text-align: center;
 }
 
-#main h2 {
+#main-bottom h2 {
     font-size: 1.5rem;
+    font-weight: 800;
     padding: 30px;
     margin-bottom: 40px;
+    text-shadow: 2px 2px 15px;
 }
 
-#main .img {
+#main-bottom .img {
     margin-bottom: 160px;
     opacity: 0;
 }
 
-#main .img a img {
+#main-bottom .img a img {
     box-shadow: 7px 7px 15px #000;
     transition: all 2s;
 }
 
-#main .img a:hover img {
+#main-bottom .img a:hover img {
     box-shadow: 7px 7px 15px #444;
     transition: 1s;
 }
 
-#main .img a:active img {
+#main-bottom .img a:active img {
     box-shadow: 7px 7px 15px #888;
 }
 
-#main .img-after {
+#main-bottom .img-after {
     opacity: 1;
 }
 
-#main .img1 {
+#main-bottom .img1 {
     margin-bottom: 160px;
     opacity: 1;
 }
 
-#main .img1 a img {
+#main-bottom .img1 a img {
     box-shadow: 7px 7px 15px #000;
     transition: all 2s;
 }
 
-#main .img1 a:hover img {
+#main-bottom .img1 a:hover img {
     box-shadow: 7px 7px 15px #444;
     transition: 1s;
 }
 
-#main .img1 a:active img {
+#main-bottom .img1 a:active img {
     box-shadow: 7px 7px 15px #888;
 }
 
