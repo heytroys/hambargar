@@ -257,3 +257,25 @@ a {
     background-color: #444;
     color: #FFF;
 }
+
+
+/* media 
+=============================================== */
+
+@media screen and (max-width: 700px) {
+    #auto-slider .flex-images-right:hover .auto-scroll-from-right {
+        animation-play-state: running;
+    }
+
+    #auto-slider .flex-images-right:active .auto-scroll-from-right {
+        animation-play-state: paused;
+    }
+
+    #auto-slider .flex-images-right:hover .scroll-list li img {
+        box-shadow: 5px 5px 10px #000;
+    }
+
+    #auto-slider .flex-images-right:active .scroll-list li img {
+        box-shadow: none;
+    }
+}
