@@ -165,8 +165,6 @@ a {
 #auto-slider .flex-images-right .scroll-list {
     display: flex;
     list-style: none;
-    background-color: #F00;
-    margin-right: 0;
 }
 
 #auto-slider .flex-images-right .scroll-list li img {
