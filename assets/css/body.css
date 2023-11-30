@@ -170,7 +170,7 @@ a {
 }
 
 #auto-slider .flex-images-right .scroll-list li img {
-    opacity: 0.8;
+    box-shadow: 5px 5px 10px #000;
     vertical-align: bottom;
 }
 
@@ -185,7 +185,7 @@ a {
 
 #auto-slider .flex-images-right:hover .scroll-list li img,
 #auto-slider .flex-images-right:active .scroll-list li img {
-    opacity: 1;
+    box-shadow: none;
     transition: all 1s;
 }
 
