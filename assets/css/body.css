@@ -140,6 +140,12 @@ a {
     margin-bottom: 90px;
 }
 
+#auto-slider h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
 @keyframes infinity-scroll-right {
     from {
         transform: translateX(0);
