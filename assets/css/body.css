@@ -144,6 +144,7 @@ a {
     font-size: 1.3rem;
     text-align: center;
     margin: 20px auto;
+    padding: 0px 13px;
 }
 
 @keyframes infinity-scroll-right {
