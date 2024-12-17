@@ -79,7 +79,7 @@ body {
 
 .header-list {
     display: flex;
-    margin-top: 45px;
+    margin-top: 5px;
 }
 
 
@@ -107,82 +107,7 @@ body {
 }
 
 
-/* main
-===================================== */
 
-.container {
-    max-width: 1400px;
-    padding: 20px;
-    z-index: 1;
-}
-
-#main-top {
-    padding-top: 200px;
-}
-
-.main-img {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.main-img.active {
-    opacity: 1;
-}
-
-.main-img img {
-    border-radius: 7px;
-}
-
-#main4 .main-img {
-    margin-bottom: 0;
-}
-
-
-/* mainスクロール促す矢印設置
-==================================== */
-
-.arrow-inner {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-    opacity: 1;
-    transition: opacity 0.5s ease;
-}
-
-.arrow-inner.delete {
-    opacity: 0;
-}
-
-.arrow {
-    color: rgb(255, 94, 94);
-    animation: bounce 1s infinite;
-}
-
-
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-}
-
-
-/* footer
-======================================= */
-
-.footer a {
-    background-color: rgb(68, 118, 255);
-    border-radius: 7px;
-}
-
-.footer .copy {
-    margin-top: 30px;
-    font-size: 10px;
-}
 
 
 
